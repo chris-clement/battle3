@@ -1,9 +1,9 @@
-<h2> <%= @player_1 %> HP:<%= @player_1_HP %>  </h2>
-<h2> <%= @player_2 %> HP:<%= @player_2_HP %>  </h2>
+<h2> <%= @player_1_name %> HP:<%= @player_1_HP %>  </h2>
+<h2> <%= @player_2_name %> HP:<%= @player_2_HP %>  </h2>
 
 <form action="/names" method="post">
-  <input type="text" name="player_1">
-  <input type="text" name="player_2">
+  <input type="text" name="player_1_name">
+  <input type="text" name="player_2_name">
   <input type="submit" value="Submit">
 </form>
 
